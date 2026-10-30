@@ -1,0 +1,78 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="yRrYC9RHLdP1Acv2bv9I">
+    <mxGraphModel dx="1359" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Bitir" vertex="1">
+          <mxGeometry height="60" width="100" x="385" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-4" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Başla" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-6" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-3" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;İşçinin maaşını ve çocuk sayısını giriniz&quot;" vertex="1">
+          <mxGeometry height="80" width="170" x="340" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-8" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;strokeWidth=2;" value="Maas,Cocuk_sayisi" vertex="1">
+          <mxGeometry height="60" width="225" x="313" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-10" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-12" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;" value="Cocuk_sayisi &amp;gt;= 3" vertex="1">
+          <mxGeometry height="80" width="225" x="313" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-9" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="ek_yuzde = 15" vertex="1">
+          <mxGeometry height="60" width="120" x="670.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-14" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150.24" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-11" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="ek_yuzde = Cocuk_sayisi * 5" vertex="1">
+          <mxGeometry height="60" width="179.5" x="60.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-23" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-13" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="425" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-18" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.936;entryY=0.61;entryDx=0;entryDy=0;entryPerimeter=0;" target="AHquks4uJTBMOa0LgL8Y-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730.52" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-24" edge="1" parent="1" source="AHquks4uJTBMOa0LgL8Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AHquks4uJTBMOa0LgL8Y-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHquks4uJTBMOa0LgL8Y-22" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Yardımla beraber maas =&quot;, (ek_yuzde * Maas / 100) + Maas" vertex="1">
+          <mxGeometry height="80" width="430" x="220" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="HkgESy_J6dlyrBZB-v4W-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hayır" vertex="1">
+          <mxGeometry height="30" width="60" x="253" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="HkgESy_J6dlyrBZB-v4W-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hayır" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

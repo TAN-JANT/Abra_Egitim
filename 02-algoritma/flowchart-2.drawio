@@ -1,0 +1,119 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="XOwFHjA-laDxDPGvVYBN">
+    <mxGraphModel dx="1359" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-4" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Başla" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Bitir" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-6" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-3" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;Dikdörtgenin ilk kenar uzunluğunu gir&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-8" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="A" vertex="1">
+          <mxGeometry height="60" width="130" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-9" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720.03" y="490" />
+              <mxPoint x="720.03" y="170" />
+            </Array>
+            <mxPoint x="430" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-22" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="A &amp;gt; 0" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hayır" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-12" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="v3sMDJSI0mbqc0Gv5EPC-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="475" y="490" as="sourcePoint" />
+            <mxPoint x="620" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-11" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Sayı Geçersiz.&amp;nbsp;&lt;div&gt;Tekrar girin&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="580" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-13" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-14" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;Dikdörtgenin ikinci kenar uzunluğunu gir&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-15" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-16" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="B" vertex="1">
+          <mxGeometry height="60" width="130" x="360" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-17" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720.03" y="900" />
+              <mxPoint x="720.03" y="580" />
+            </Array>
+            <mxPoint x="430" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-25" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.0689655172414" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-18" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="B &amp;gt; 0" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hayır" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-20" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="v3sMDJSI0mbqc0Gv5EPC-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="475" y="900" as="sourcePoint" />
+            <mxPoint x="620" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-21" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Sayı Geçersiz.&amp;nbsp;&lt;div&gt;Tekrar girin&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="580" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Evet" vertex="1">
+          <mxGeometry height="30" width="60" x="375" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Evet" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-28" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" value="C = A * B" vertex="1">
+          <mxGeometry height="70" width="170" x="340" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-29" edge="1" parent="1" source="v3sMDJSI0mbqc0Gv5EPC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v3sMDJSI0mbqc0Gv5EPC-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3sMDJSI0mbqc0Gv5EPC-27" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" value="&quot;Dikdörtgenin alanı =&quot; , C" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="1185" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

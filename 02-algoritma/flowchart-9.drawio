@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="2wS84jAqFfsNHbL0Qczj">
+    <mxGraphModel dx="1359" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oqOQDkHuue7jKauxLcbx-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Bitir" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-5" edge="1" parent="1" source="oqOQDkHuue7jKauxLcbx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oqOQDkHuue7jKauxLcbx-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Başla" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-7" edge="1" parent="1" source="oqOQDkHuue7jKauxLcbx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oqOQDkHuue7jKauxLcbx-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fillStyle=auto;" value="1_100_arasi_ilk_cift = 2" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-9" edge="1" parent="1" source="oqOQDkHuue7jKauxLcbx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oqOQDkHuue7jKauxLcbx-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-6" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fillStyle=auto;" value="1_100_arasi_son_cift = 100" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-14" edge="1" parent="1" source="oqOQDkHuue7jKauxLcbx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oqOQDkHuue7jKauxLcbx-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-8" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fillStyle=auto;" value="Sonuc = ((100 +2) / 2) * (((100-2)/2) + 1)" vertex="1">
+          <mxGeometry height="60" width="310" x="270" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Burada toplam için formül uyguladım." vertex="1">
+          <mxGeometry height="80" width="140" x="590" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-15" edge="1" parent="1" source="oqOQDkHuue7jKauxLcbx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oqOQDkHuue7jKauxLcbx-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oqOQDkHuue7jKauxLcbx-13" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;fillStyle=auto;" value="&quot;1-100 arası çift sayıların toplamı (100 dahil) = &quot;, Sonuc" vertex="1">
+          <mxGeometry height="93.33" width="350" x="250" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

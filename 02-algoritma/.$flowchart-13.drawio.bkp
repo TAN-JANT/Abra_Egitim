@@ -1,0 +1,88 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="jMffXDstLTCxeXSa3QNj">
+    <mxGraphModel dx="1599" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vyC4kXrUqwT_0std2phB-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Bitir" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-6" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Başla" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-8" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-5" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;3 basamaklı bir sayı gir&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-10" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;strokeWidth=2;" value="A" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-11" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.484;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;" target="vyC4kXrUqwT_0std2phB-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="400" />
+              <mxPoint x="610" y="270" />
+              <mxPoint x="608.1" y="270" />
+            </Array>
+            <mxPoint x="690" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-16" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;" value="A &amp;lt;= 999 &amp;amp;&amp;amp; A &amp;gt;= 100" vertex="1">
+          <mxGeometry height="80" width="250" x="300" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hayır" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-19" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-15" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="BIRLIK = A % 10&lt;div&gt;ONLUK = (A-BIRLIK) % 100&lt;/div&gt;&lt;div&gt;YUZLUK = (A-(ONLUK+BIRLIK)) % 1000&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Evet" vertex="1">
+          <mxGeometry height="30" width="60" x="375" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-21" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-18" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;Birlik adedi:&quot; , BIRLIK" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-24" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-20" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;Onluk adedi:&quot; , ONLUK/10" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-25" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vyC4kXrUqwT_0std2phB-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-23" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" value="&quot;yüzlük adedi:&quot; , YUZLUK / 100" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-27" edge="1" parent="1" source="vyC4kXrUqwT_0std2phB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610.03" y="120.03" />
+            </Array>
+            <mxPoint x="430" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyC4kXrUqwT_0std2phB-26" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;3 Basamaklı girmelisin&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="550" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
